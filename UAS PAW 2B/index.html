@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+            <button>Contact Me</button>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="intro-text">
+            <h1>Perkenalkan, <span>Fajar Adi</span> adalah nama saya.</h1>
+            <p>Seorang mahasiswa di Politeknik Pertanian Negeri Samarinda.</p>
+            <button>Get in Touch</button>
+        </div>
+        <div class="intro-image">
+            <img src="profile-picture1.png" alt="Profile picture">
+        </div>
+    </section>
+
+    <section class="expertise">
+        <h2>Minat & Keahlian</h2>
+        <div class="skills">
+            <div class="skill">
+                <h3>Gaming</h3>
+                <p>Bermain permainan video, baik itu melalui konsol, PC, atau perangkat seluler.</p>
+            </div>
+            <div class="skill">
+                <h3>Technical Support</h3>
+                <p>Perakitan dan Service PC/laptop.</p>
+            </div>
+            <div class="skill">
+                <h3>Housework</h3>
+                <p>Pekerjaan dasar dalam rumah tangga.</p>
+            </div>
+            <div class="skill">
+                <h3>History & Military Enthusiast</h3>
+                <p>Peminat sejarah dan militer terutama jika berhubungan dengan Rusia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile-picture2.jpg" alt="Profile picture">
+            <p>Saya adalah mahasiswa yang bersemangat dalam bidang teknologi dan permainan daring.
+            Saya percaya bahwa pengalaman dan pengetahuan saya dalam game dapat menjadi nilai tambah dalam berbagai konteks, baik akademis maupun profesional. 
+            Saya berharap dapat memberikan kontribusi positif dan belajar lebih banyak lagi di masa depan. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, pariatur culpa aspernatur repellat eos qui optio laudantium quisquam obcaecati quia distinctio libero itaque. Ullam placeat nesciunt expedita vero voluptate fugiat!</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Riwayat Pendidikan</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="sekolah1.jpg" alt="Project image">
+                <h3>SD</h3>
+                <p>Sekolah Dasar Negeri 009 Palaran.</p>
+                <a href="#">View on Maps</a>
+            </div>
+            <div class="project">
+                <img src="sekolah2.jpg" alt="Project image">
+                <h3>SMP</h3>
+                <p>Sekolah Menengah Pertama Negeri 14 Samarinda.</p>
+                <a href="#">View on Maps</a>
+            </div>
+            <div class="project">
+                <img src="sekolah3.jpg" alt="Project image">
+                <h3>SMK (Multimedia)</h3>
+                <p>Sekolah Menengah Kejuruan Negeri 19 Samarinda.</p>
+                <a href="#">View on Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Favorite Games</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <img src="logo1.png" alt="Customer picture">
+                <p>"Multiplayer Online Battle Arena (MOBA) developed by TiMi Studio Group and published by Tencent Games for the iOS and Android mobile platforms."</p>
+                <h4>Honor Of Kings</h4>
+            </div>
+            <div class="testimonial">
+                <img src="logo2.jpg" alt="Customer picture">
+                <p>"Free squad-based multiplayer tactical first-person shooter developed by Darkflow Software and published by Gaijin Entertainment."</p>
+                <h4>Enlisted</h4>
+            </div>
+            <div class="testimonial">
+                <img src="logo3.png" alt="Customer picture">
+                <p>"A free-to-play vehicular combat multiplayer video game developed and published by Gaijin Entertainment."</p>
+                <h4>War Thunder</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name">
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone number</label>
+                <input type="tel" id="phone-number" name="phone-number">
+            </div>
+            <div class="form-group">
+                <label for="topic">Choose a topic</label>
+                <select id="topic" name="topic">
+                    <option value="">Select one...</option>
+                    <option value="Gaming">Gaming</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Housework">Housework</option>
+                    <option value="History & Military Enthusiast">History & Military Enthusiast</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I accept the terms</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo"></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Settings</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
